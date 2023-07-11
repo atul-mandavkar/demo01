@@ -1,0 +1,25 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+nav > li{
+    display: inline-block;
+}
+nav > .icon > a > img{
+    background-color: white;
+}
+main{
+    position: relative;
+    top: 50px;
+}
